@@ -1,0 +1,97 @@
+
+/*Estilos da página index.html*/
+
+#autor{
+   margin-left: 42%;
+   color: white;
+}
+
+
+#img{
+    margin-left: 40%;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: black;
+}
+
+
+#descricao{
+    width: 50%;
+    overflow: hidden;
+    margin-left: 25%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+
+.center{
+    text-align: center;
+}
+
+
+.flex-container{
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: space-around;
+   color: white;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.flex-container > div{
+   width: 35%;
+   text-align: center;
+   line-height: 20px;
+   font-size: 20px;
+   margin-bottom: 30px;
+   border-style: solid;
+   border-color: black;
+}
+
+
+.rodape{
+    margin-left: 38%;
+}
+
+
+.pad{
+    padding: 30px;
+}
+
+
+body{
+    background:linear-gradient(rgb(145, 73, 22,1),rgba(145,73,22,1)100%);
+}
+
+
+section{
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)100%), url("../img/images.jpg");
+}
+
+
+/*Estilo da página comentarios.html*/
+
+.container{
+    display: flex;
+    flex-flow: row;
+    width: 1500px;
+    padding-bottom: 30%;
+}
+
+
+.coment{
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    color: white;
+    padding-top: 50px;
+}
+
+
+.rua{
+    color: white;
+    padding-left: 710px;
+}
